@@ -1,7 +1,6 @@
 # This .gitignore file should be placed at the root of your Unity project directory
 #
 # Get latest from https://github.com/github/gitignore/blob/master/Unity.gitignore
-#
 /[Ll]ibrary/
 /[Tt]emp/
 /[Oo]bj/
@@ -61,3 +60,37 @@ sysinfo.txt
 # Crashlytics generated file
 crashlytics-build.properties
 
+# Ignore IDE-specific files and directories
+.vscode/
+.idea/
+*.iml
+*.code-workspace
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore Unity-specific files and directories
+/[Uu]serSettings/
+/[Pp]rojectSettings/
+/[Pp]ackages/
+
+# Ignore documentation files
+*.pdf
+*.doc
+*.docx
+
+# Ignore temporary and backup files
+*~
+*.bak
+*.swp
+
+# Ignore generated build files
+/[Bb]uild/
+/[Bb]uilds/
+/[Rr]elease/
+/[Dd]ebug/
+
+# Ignore package manager files
+/[Pp]ackages/manifest.json
+/[Pp]ackages/packages-lock.json
